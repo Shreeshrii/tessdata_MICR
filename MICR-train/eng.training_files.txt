@@ -1,1 +1,0 @@
-/home/ubuntu/tesstutorial/MICR-train/eng.MICR_Encoding.exp0.lstmf
