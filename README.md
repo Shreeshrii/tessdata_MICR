@@ -1,2 +1,3 @@
-# tessdata_tagalog
-Tesseract4 training data for Tagalog / Baybayin script
+# tessdata_MICR
+MICR traineddata for base tesseract (--oem 0)
+
