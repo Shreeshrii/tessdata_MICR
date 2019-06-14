@@ -1,8 +1,8 @@
 #!/bin/bash
-#./MICR-input/eng.MICRsymbols.training_text  uses Unicode codepoints
-#./MICR-input/eng.MICR.training_text for MICR Encoding font uses A B C D
-# eng.mcr.exp0.tif/box based on file by Hunter Beanland (hunter @ beanland.net.au)
-# use micr.sed to convert A B C D to use Unicode codepoints
+#./MICR-input/langdata/eng/eng.MICRsymbols.training_text  uses Unicode codepoints
+#./MICR-input/langdata/eng/eng.MICR.training_text for MICR Encoding font uses A B C D
+# ./MICR-input/eng.mcr.exp0.tif/box based on file by Hunter Beanland (hunter @ beanland.net.au)
+# use ./MICR-input/micr.sed to convert A B C D to use Unicode codepoints
 
 time ~/tesseract/src/training/tesstrain.sh \
   --fonts_dir ~/.fonts \
